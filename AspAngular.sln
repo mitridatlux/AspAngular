@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspAngular", "AspAngular\AspAngular.csproj", "{A0018154-0670-426E-A09E-254703119CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspAngular.Tests", "AspAngular.Tests\AspAngular.Tests.csproj", "{E8B74091-5468-4716-A496-EB7B5B9C8207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0018154-0670-426E-A09E-254703119CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0018154-0670-426E-A09E-254703119CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0018154-0670-426E-A09E-254703119CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0018154-0670-426E-A09E-254703119CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B74091-5468-4716-A496-EB7B5B9C8207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B74091-5468-4716-A496-EB7B5B9C8207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B74091-5468-4716-A496-EB7B5B9C8207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B74091-5468-4716-A496-EB7B5B9C8207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
