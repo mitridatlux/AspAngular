@@ -6,9 +6,15 @@
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "removeComments": true,
     "lib": [ "es2015", "dom" ],
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "rootDir": "Appm",
+    "outDir": "wwwroot/app",
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types/"
+    ]
   },
   "compileOnSave": true,
   "angularCompilerOptions": {
@@ -16,7 +22,8 @@
     "debug": true
   },
   "exclude": [
-    "node_modules",
-    "wwwroot"
+    "node_modules/*",
+    "wwwroot/*",
+    "**/*-aot.ts"
   ]
 }
